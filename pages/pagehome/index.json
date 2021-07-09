@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "navigationBarTitleText": "Component 页面",
+  "usingComponents": {
+    "logIndex": "../pagelog/index",
+    "sub": "../component/sub"
+  }
+}

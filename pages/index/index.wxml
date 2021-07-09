@@ -1,0 +1,10 @@
+<view style="text-align: center">{{ obj.parent }}</view>
+
+<view> first: <sub name="first"></sub></view>
+
+<view>
+  <logIndex id="log" name="logIndex-1-comp" />
+  <logIndex id="log" name="logIndex-2-comp" />
+</view>
+
+<sub name="last"></sub>

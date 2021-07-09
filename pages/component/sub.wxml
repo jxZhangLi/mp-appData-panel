@@ -1,0 +1,7 @@
+<!--pages/index/component/sub.wxml-->
+<text>sub component {{ name }} {{ sub }}</text>
+
+<view wx:if="{{ toggle }}" bindtap=bindToggle">
+  <test></test>
+</view>
+<test wx:else bindtap=bindToggle"></test>

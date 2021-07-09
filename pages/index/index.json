@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "logIndex": "../pagelog/index",
+    "sub": "../component/sub"
+  }
+}

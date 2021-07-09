@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <sub></sub>
+  <sub></sub>
+  
+  <text class="userinfo-nickname">{{motto}}</text>
+   props: {{ name }}
+  <view
+    wx:for="{{ list }}"
+    wx:key="idx"
+    >{{ item.a }}</view>
+
+</view>
